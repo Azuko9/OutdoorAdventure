@@ -1,0 +1,291 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/hero-bg.jpg");
+}
+
+   
+/*
+**********************************************
+Page titre de l'accueil
+*********************************************
+*/
+
+#titreAccueil{
+    color: white;
+    height: 720PX;
+    min-height: 80vh;
+    justify-content: center;
+
+}
+#titreAccueil div{
+    height: 290px;
+}
+
+ #titreAccueil h1{
+    padding-bottom: 75px;
+ }
+ @media (max-width: 920px){
+    #titreAccueil{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/hero-bg.jpg");
+        background-size: cover;
+        background-position: top center;
+    }
+    #titreAccueil h1{
+padding-bottom: 35px;
+        font-size: 2em;
+     }
+
+     #titreAccueil h2{
+                font-size: 1.1em;
+             }
+
+}
+
+@media (max-width: 1024px){
+    #titreAccueil{
+        height: auto;
+        min-height: auto;
+
+    }
+
+    #titreAccueil div{
+        justify-content: center;
+    }
+    
+        
+
+}
+
+ @media (min-width: 768px) and (max-width: 1024px){
+
+    #titreAccueil h1{
+        
+        font-size: 3em;
+     }
+}
+
+/*
+*************************************************
+section de la devise
+*************************************************
+*/
+
+
+ #deviseAccueil{
+    background-color:var(--bgwhite);
+    color: var(--txtGrey);
+    flex-direction: row;
+    padding: 50px 0;
+}
+
+#deviseAccueil div{
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 1;
+}
+
+#deviseAccueil img{
+    filter: none;
+    padding: 10px;
+}
+ #deviseAccueil p{
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    
+ }
+
+ @media (max-width: 767px){
+    #deviseAccueil{
+        padding:  0;
+    }
+
+    #deviseAccueil div{
+        flex-direction: column;
+        
+    }
+}
+ /*
+ *********************************************
+ section de Upcomind Event
+ *********************************************
+ */
+
+ #eventAccueil{
+    background-color: #F5F5F5;
+    padding: 75px 0  ;
+   
+}
+
+#eventAccueil h2{
+    font-size: 2.5em;
+}
+
+#eventAccueil section{
+    flex-direction: row;
+    padding:20px;
+}
+
+#eventAccueil article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#eventAccueil img{
+    margin: 20px 0;
+    width: 90%;
+    box-shadow: 10px 10px 0 1px rgba(0,0,0,.07);
+}
+
+#eventAccueil h5{
+    font-size: 1.2em;
+}
+
+#eventAccueil p{
+    max-width: 800px;
+}
+@media (max-width: 767px){
+
+    #eventAccueil section{
+        flex-direction: column;
+    }
+
+    #eventAccueil img{
+        margin-top: 40px;
+        margin-bottom: 20PX;
+        width: 85%;
+    }
+
+}
+/*
+***********************************************
+section Explore the World
+***********************************************
+*/
+
+#exploreAccueil{
+    background-image: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(../img/section-bg-img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding: 200px 0;
+    align-items: flex-start;
+}
+
+#exploreAccueil div{
+    padding-left: 50%;
+    max-width: 570px;
+    height: 220px;
+    align-items: flex-start;
+
+}
+
+#exploreAccueil h2{
+    font-size: 2em;
+}
+
+@media (max-width: 767px){
+
+    #exploreAccueil{
+        background-attachment: local;
+        align-items: center;
+        padding: 30px;
+    }
+    #exploreAccueil div{
+        padding-left: 0%;
+        align-items: center;
+       
+    
+    }
+    #exploreAccueil p{
+        margin:  0 10%;
+        text-align: center;
+    }
+
+}
+
+/* 
+**************************************************
+section Upcoming Tours & destination
+**************************************************
+*/
+
+#destinAccueil{
+    background-color: var(--bgwhite);
+    padding: 80px 0 40px 0;
+    
+
+    
+}
+
+#destinAccueil div{
+    flex-direction: row;
+justify-content: space-evenly;
+align-items: flex-start;
+    
+}
+
+#destinAccueil article{
+
+    text-align: left;
+    flex: 1;
+    margin: 10px;
+    
+    
+}
+#destinAccueil h2{
+    font-size: 2em;
+    padding-right: 10%;
+    
+}
+
+#destinAccueil p{
+    margin-bottom: 30px;
+
+    
+}
+
+
+#destinAccueil article img{
+    width: 100%;
+    margin: 10px 0;
+
+}
+
+@media (max-width: 767px){
+    #destinAccueil div{
+        flex-direction: column;
+        align-items: center;
+        
+   
+        
+    }
+    #destinAccueil p{
+        margin-bottom: 10px;
+    
+        
+    }
+
+    #destinAccueil article{
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    #destinAccueil h2{
+        padding:10px;
+        font-size: 2em;
+        
+    }
+
+
+    #destinAccueil article img{
+        width: 100vw;
+
+    
+    }
+}

@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat',sans-serif;
+}
+
+:root{
+    --bgwhite:#F5F5F5;
+    --txtWhite:#FFF;
+    --txtGrey:#404040;
+    --redline:#FB2056;
+    
+}
+
+
+/*
+**********************************************************
+Le corp principal de la page
+**********************************************************
+*/
+body{
+    min-width: 480px;
+    max-width: 100vw;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color:var(--bgwhite);
+}
+@media (min-width: 1025px){
+    body{
+background-size: cover;
+        background-attachment: fixed;
+       
+    }
+}
+
+header{
+    width: auto;
+    padding:  0 2%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+@media (max-width: 920px){
+
+#burger{
+    display: true;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 40px;
+    height: 20px;
+    background-color: var(--redline);
+}
+    header{
+        background-color: var(--bgwhite);
+        padding: 0;
+        flex-direction: column;
+        align-items: flex-start;
+    
+    }
+    header div{
+        padding: 10px 0;
+    }
+
+    header img{
+        filter: invert(100%);
+        
+    }
+   
+
+    header ul{
+        flex-direction: column;
+        background-color: var(--bgwhite);
+        border-block-start: solid 1px var(--txtGrey);
+       
+    }
+
+    header li{
+       
+        border-block-end: solid 1px var(--txtGrey);
+        margin: 0;
+        padding: 10px 0;
+        width: 97vw;
+    
+    }
+
+    header li :hover {
+        color: var(--redline);
+    }
+
+    header a {
+        color: var(--txtGrey);
+        margin: 16px;
+        width: 100vw;
+    }
+
+    .leBouton{
+        display: none;
+    }
+}
+
+
+footer{
+    padding: 20px 0;
+    background-color: black;
+    color: var(--txtWhite);
+    text-align: center;
+}
+footer p {
+    margin: 20px;
+}
+
+/*
+*********************************************
+ les éléments principaux
+ ********************************************
+ */
+
+nav{
+    
+    padding: auto;
+    font-size: 1em;
+    
+}
+div{
+    max-width: 1140px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+
+
+
+ul{
+    
+ display: flex;
+  list-style: none;
+  align-items: center;
+    
+}
+
+li{
+    margin: 20px;
+    
+}
+
+
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+ img{
+    filter: brightness( 103% ) contrast( 95% ) saturate( 110% ) blur( 0px ) hue-rotate( 346deg );
+    
+}
+
+
+
+/*
+*************************************
+Le bouton 
+*************************************
+*/
+.leBouton{
+    color: white;
+    padding: 15px 40px;
+    margin: 10px 0;
+    border: none;
+    font-family: 'Noto Sans',sans-serif;
+    background-color:#FB2056 ;
+    border-radius: 25PX;
+    transition: 0.2s;
+    cursor: pointer ;
+
+}
+.leBouton:hover{
+    background-color: #da1c4b;
+
+}
+
+
+/*
+********************************************
+les titres , le texte .....
+********************************************
+*/
+
+
+h1{
+    font-size: 4em;
+}
+
+h2{
+    font-size: 1.5em;
+    margin: 10px 0;
+    
+}
+
+h5{
+    margin: 10px 0;
+}
+
+hr{
+    background-color: #FB2056;
+    margin: 20px 0;
+    width: 80px;
+    height: 2px;
+    border: none;
+}
+
+.hrV2{
+    height: 4px;
+    width: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--txtWhite);
+    
+}
+
+p{
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+

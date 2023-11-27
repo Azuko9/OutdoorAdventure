@@ -1,0 +1,55 @@
+/*
+**********************************************************
+Le corp principal de la page
+**********************************************************
+*/
+
+#servicesBody{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/services-bg.jpg);
+    background-size: 140vw;
+    background-attachment: local;
+}
+
+/*
+**********************************************
+Page titre de Service
+*********************************************
+*/
+
+#titreServices{
+    color: var(--txtWhite);
+padding: 15vw 0;
+}
+
+@media (max-width: 920px){
+    #titreServices{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(../img/services-bg.jpg);
+        background-size: cover;
+        background-position: top center;
+        padding: 100px 0;
+    }
+}    
+
+.sectionWrap{
+    flex-wrap: wrap;
+    max-width: 1024px;
+}
+
+.articleServices{
+    width: 50%;
+}
+
+.ulInline{
+    display: inline;
+    list-style: none;
+
+}
+
+@media (max-width: 767px){
+
+    .articleServices{
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,48 @@
+/*
+**********************************************************
+Le corp principal de la page
+**********************************************************
+*/
+
+#aboutBody{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/project-background.jpg);
+    background-size: 130vw;
+    background-attachment: local;
+    }
+
+/*
+**********************************************
+Page titre projects
+*********************************************
+*/
+
+#titreProjects{
+    color: var(--txtWhite);
+padding: 15vw 0;
+}
+.destinProjects{
+    background-color: var(--bgwhite);
+    justify-content: flex-start;
+}
+
+
+/*
+**********************************************
+Page projects
+*********************************************
+*/
+
+.destinProjects div{
+    width: 100%;
+}
+
+
+@media (max-width: 920px){
+    #titreProjects{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(../img/project-background.jpg);
+        background-size: cover;
+        background-position: top center;
+        padding: 100px 0;
+    }
+}   
