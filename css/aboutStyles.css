@@ -1,0 +1,32 @@
+/*
+**********************************************************
+Le corp principal de la page
+**********************************************************
+*/
+
+#aboutBody{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/about-bg-5.jpg);
+    background-size: 130vw;
+    background-attachment: local;
+    }
+
+/*
+**********************************************
+Page titre d'About
+*********************************************
+*/
+
+#titreAbout{
+    color: var(--txtWhite);
+padding: 15vw 0;
+}
+
+@media (max-width: 920px){
+    #titreAbout{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(../img/about-bg-5.jpg);
+        background-size: cover;
+        background-position: top center;
+        padding: 100px 0;
+    }
+}    
