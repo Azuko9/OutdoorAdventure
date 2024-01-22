@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="../css/accueilstyle.css">
     <link rel="stylesheet" href="../css/servicesStyle.css">
     <link rel="stylesheet" href="../css/aboutStyles.css">
-    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/projectsStyle.css">
+    <link rel="stylesheet" href="../css/flickityStyle.css">
 
 <title>projects</title>
 </head>
@@ -21,15 +22,16 @@
 
 
         </div>
-        <nav>
-            <div id="burger"></div>
+        <div id="burger"></div>
+        <nav class="navB" id="activeburger">
+            
             <ul>
                 <li><a href="../html/accueil.html">Home</a></li>
                 <li><a href="../html/about.html">About</a></li>
                 <li><a href="../html/service.html">Services</a></li>
                 <li><a href="../html/projects.html">Projects</a></li>
                 <li><a href="../html/contact.html">Contact</a></li>
-                <li class="leBouton"><a href="#">TAKE ACTION</a></li>
+                <li class="leBouton boutonBurger"><a href="#">TAKE ACTION</a></li>
             </ul>
 
         </nav>
@@ -50,7 +52,15 @@
             <h2>WATER SPORTS</h2>
             <p>Interdum exercitation penatibus, praesentium facilisi accusamus fermentum, sagittis.</p>
                 </article>
-        
+                <div class="gallery js-flickity">
+                    <div class="gallery-cell img3"></div>
+                    <div class="gallery-cell img4"></div>
+                    <div class="gallery-cell img1"></div>
+                    <div class="gallery-cell img2"></div>
+                    <div class="gallery-cell img3"></div>
+                    <div class="gallery-cell img4"></div>
+                  </div>
+                 
             </div>
         </section>
         <section class="destinProjects">
@@ -62,7 +72,14 @@
             <h2>WINTER SPORTS</h2>
             <p>Interdum exercitation penatibus, praesentium facilisi accusamus fermentum, sagittis.</p>
                 </article>
-        
+                <div class="gallery js-flickity">
+                    <div class="gallery-cell img5"></div>
+                    <div class="gallery-cell img6"></div>
+                    <div class="gallery-cell img7"></div>
+                    <div class="gallery-cell img8"></div>
+                    <div class="gallery-cell img5"></div>
+                    <div class="gallery-cell img6"></div>
+                  </div>
             </div>
         </section>
         <section class="destinProjects">
@@ -74,7 +91,14 @@
             <h2>CAMPING</h2>
             <p>Interdum exercitation penatibus, praesentium facilisi accusamus fermentum, sagittis.</p>
                 </article>
-        
+                <div class="gallery js-flickity">
+                    <div class="gallery-cell img9"></div>
+                    <div class="gallery-cell img10"></div>
+                    <div class="gallery-cell img11"></div>
+                    <div class="gallery-cell img12"></div>
+                    <div class="gallery-cell img9"></div>
+                    <div class="gallery-cell img10"></div>
+                  </div>
             </div>
         </section>
      
@@ -88,6 +112,7 @@
 
         <p>Copyright © 2023 Outdoor Adventure</p>
     </footer>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 
 </html>

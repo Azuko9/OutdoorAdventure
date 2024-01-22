@@ -6,7 +6,7 @@ Le corp principal de la page
 
 #servicesBody{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/services-bg.jpg);
-    background-size: 140vw;
+    background-size: 130vw;
     background-attachment: local;
 }
 
@@ -18,7 +18,7 @@ Page titre de Service
 
 #titreServices{
     color: var(--txtWhite);
-padding: 15vw 0;
+    padding: 12vw 0;
 }
 
 @media (max-width: 920px){
@@ -29,6 +29,7 @@ padding: 15vw 0;
         background-position: top center;
         padding: 100px 0;
     }
+
 }    
 
 .sectionWrap{
@@ -40,9 +41,16 @@ padding: 15vw 0;
     width: 50%;
 }
 
+
+.eventAccueil .servTextLeft{
+    text-align: left;
+
+    
+}
+
 .ulInline{
     display: inline;
-    list-style: none;
+    list-style-image: url(../img/arrow.png);
 
 }
 
@@ -50,6 +58,19 @@ padding: 15vw 0;
 
     .articleServices{
         width: 100%;
+    }
+
+
+
+    .eventAccueil .servTextLeft{
+        text-align: left;
+       align-items: start;
+    
+        
+    }
+
+    .titreTextcenter{
+        text-align: center;
     }
 }
 

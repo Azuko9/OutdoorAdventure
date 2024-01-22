@@ -45,16 +45,38 @@ header{
     margin: 0 auto;
 }
 
+@media (min-width:921px){
+    h1{
+        font-size: 4em;
+    }
+}
+
 @media (max-width: 920px){
 
 #burger{
-    display: true;
+    cursor: pointer;
     position: absolute;
     right: 20px;
     top: 10px;
     width: 40px;
-    height: 20px;
     background-color: var(--redline);
+}
+
+
+
+#burger::before{
+    display:block;
+    content: "\2630";
+    color: var(--txtWhite);
+}
+
+#activeburger #burger::before{
+    content: "\2715";
+}
+
+#activeburger ul{
+     left: 0;
+     display: block;
 }
     header{
         background-color: var(--bgwhite);
@@ -74,6 +96,7 @@ header{
    
 
     header ul{
+        display: none;
         flex-direction: column;
         background-color: var(--bgwhite);
         border-block-start: solid 1px var(--txtGrey);
@@ -85,11 +108,11 @@ header{
         border-block-end: solid 1px var(--txtGrey);
         margin: 0;
         padding: 10px 0;
-        width: 97vw;
+        width: 100vw;
     
     }
 
-    header li :hover {
+    header li:hover a {
         color: var(--redline);
     }
 
@@ -99,10 +122,16 @@ header{
         width: 100vw;
     }
 
-    .leBouton{
+   .boutonBurger{
         display: none;
     }
+
+    
+    h1{
+    font-size: 2.5em;
 }
+}
+
 
 
 footer{
@@ -123,7 +152,7 @@ footer p {
 
 nav{
     
-    padding: auto;
+    max-width: 1200px;
     font-size: 1em;
     
 }
@@ -140,15 +169,16 @@ div{
 
 
 ul{
-    
+    position: relative;
  display: flex;
   list-style: none;
   align-items: center;
+
     
 }
 
 li{
-    margin: 20px;
+    margin: 20px 30px;
     
 }
 
@@ -167,6 +197,7 @@ section{
 
  img{
     filter: brightness( 103% ) contrast( 95% ) saturate( 110% ) blur( 0px ) hue-rotate( 346deg );
+    border-radius: 5px;
     
 }
 
@@ -180,7 +211,7 @@ Le bouton
 .leBouton{
     color: white;
     padding: 15px 40px;
-    margin: 10px 0;
+    margin: 20px;
     border: none;
     font-family: 'Noto Sans',sans-serif;
     background-color:#FB2056 ;
@@ -202,14 +233,16 @@ les titres , le texte .....
 */
 
 
-h1{
-    font-size: 4em;
-}
+
 
 h2{
     font-size: 1.5em;
-    margin: 10px 0;
+
     
+}
+h3{
+    font-size: 1.2em;
+
 }
 
 h5{
@@ -235,15 +268,23 @@ a{
     
 }
 
-p{
-    margin: 10px 0;
+
+
+
+
+
+
+
+
+.iconList{
+    width: 12px;
+    height: 2px;
+    background-color: var(--redline);
+    position: relative;
+    left: -20px;
+    bottom: -10px;
 }
 
-
-
-
-
-
-
-
-
+.leftText{
+    padding: 0 20px;
+}
