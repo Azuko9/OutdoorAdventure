@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,21 +11,23 @@
     <link rel="stylesheet" href="../css/servicesStyle.css">
     <link rel="stylesheet" href="../css/aboutStyles.css">
     <link rel="stylesheet" href="../css/projectsStyle.css">
-    <link rel="stylesheet" href="../css/flickityStyle.css">
+    <link rel="stylesheet" href="../css/carousselStyle.css">
 
-<title>projects</title>
+
+    <title>projects</title>
 </head>
+
 <body id="aboutBody">
     <header>
-        <div >
-            <img src="../img/white-logo.png" alt=""style="width: 150px;">
-            
+        <div>
+            <img src="../img/white-logo.png" alt="" style="width: 150px;">
+
 
 
         </div>
         <div id="burger"></div>
         <nav class="navB" id="activeburger">
-            
+
             <ul>
                 <li><a href="../html/accueil.html">Home</a></li>
                 <li><a href="../html/about.html">About</a></li>
@@ -39,69 +42,118 @@
 
     </header>
     <main>
-        <section id="titreProjects" >
+        <section id="titreProjects">
             <h1>OUR PROJECTS</h1>
-            
+
         </section>
         <section class="destinProjects">
             <div>
                 <article>
-                
-               <h3>Adventure </h3><hr />
-            
-            <h2>WATER SPORTS</h2>
-            <p>Interdum exercitation penatibus, praesentium facilisi accusamus fermentum, sagittis.</p>
+
+                    <div class ="titreSousProjects">
+                        <p>Adventure</p><hr />
+                    </div>
+
+                    <h2>WATER SPORTS</h2>
+                    <p>Interdum exercitation penatibus, praesentium facilisi accusamus fermentum, sagittis.</p>
                 </article>
-                <div class="gallery js-flickity">
-                    <div class="gallery-cell img3"></div>
-                    <div class="gallery-cell img4"></div>
-                    <div class="gallery-cell img1"></div>
-                    <div class="gallery-cell img2"></div>
-                    <div class="gallery-cell img3"></div>
-                    <div class="gallery-cell img4"></div>
-                  </div>
-                 
+                <section class="articleCaroussel">
+                    <div id="divInput">
+                        <input type="radio" id="slide1" class="inpt" name="carou1" checked="yes">
+                        <label id="slideOne" for="slide1"></label>
+                        <input type="radio" id="slide2" class="inpt" name="carou1">
+                        <label id="slideTwo" for="slide2"></label>
+                        <input type="radio" id="slide3" class="inpt" name="carou1">
+                        <label id="slideThree" for="slide3"></label>
+                        <input type="radio" id="slide4" class="inpt" name="carou1">
+                        <label id="slideFor" for="slide4"></label>
+                    </div>
+
+
+                    <div id="carousselUn" class="caroussel positionCaroussel1">
+                        <div class="images img3"></div>
+                        <div class="images img4"></div>
+                        <div class="images img1"></div>
+                        <div class="images img2"></div>
+                        <div class="images img3"></div>
+                        <div class="images img4"></div>
+                    </div>
+                </section>
+
+
+
+
             </div>
         </section>
         <section class="destinProjects">
             <div>
                 <article>
-                
-               <h3> Snow Adventure </h3><hr />
-            
-            <h2>WINTER SPORTS</h2>
-            <p>Interdum exercitation penatibus, praesentium facilisi accusamus fermentum, sagittis.</p>
+                    <div class ="titreSousProjects">
+                      <p> Snow Adventure </p>
+                    <hr />  
+                    </div>
+                    
+
+                    <h2>WINTER SPORTS</h2>
+                    <p>Interdum exercitation penatibus, praesentium facilisi accusamus fermentum, sagittis.</p>
                 </article>
-                <div class="gallery js-flickity">
-                    <div class="gallery-cell img5"></div>
-                    <div class="gallery-cell img6"></div>
-                    <div class="gallery-cell img7"></div>
-                    <div class="gallery-cell img8"></div>
-                    <div class="gallery-cell img5"></div>
-                    <div class="gallery-cell img6"></div>
-                  </div>
-            </div>
-        </section>
-        <section class="destinProjects">
-            <div>
+                <section class="articleCaroussel">
+                    <div id="divInput2">
+                        <input type="radio" id="slide5" class="inpt" name="carou2" checked="yes">
+                        <label id="slideFive" for="slide5"></label>
+                        <input type="radio" id="slide6" class="inpt" name="carou2">
+                        <label id="slideSix" for="slide6"></label>
+                        <input type="radio" id="slide7" class="inpt" name="carou2">
+                        <label id="slideSeven" for="slide7"></label>
+                        <input type="radio" id="slide8" class="inpt" name="carou2">
+                        <label id="slideEight" for="slide8"></label>
+                    </div>
+
+
+                    <div id="carousselDeux" class="caroussel positionCaroussel1">
+                        <div class="images img7"></div>
+                        <div class="images img8"></div>
+                        <div class="images img5"></div>
+                        <div class="images img6"></div>
+                        <div class="images img7"></div>
+                        <div class="images img8"></div>
+                    </div>
+                </section>
                 <article>
-                
-               <h3>Forest Tours</h3><hr />
-            
-            <h2>CAMPING</h2>
-            <p>Interdum exercitation penatibus, praesentium facilisi accusamus fermentum, sagittis.</p>
+                    <div class ="titreSousProjects">
+                        <p>Forest Tours</p>
+                        <hr /> 
+                    </div>
+                   
+
+                    <h2>CAMPING</h2>
+                    <p>Interdum exercitation penatibus, praesentium facilisi accusamus fermentum, sagittis.</p>
                 </article>
-                <div class="gallery js-flickity">
-                    <div class="gallery-cell img9"></div>
-                    <div class="gallery-cell img10"></div>
-                    <div class="gallery-cell img11"></div>
-                    <div class="gallery-cell img12"></div>
-                    <div class="gallery-cell img9"></div>
-                    <div class="gallery-cell img10"></div>
-                  </div>
+                <section class="articleCaroussel">
+                    <div id="divInput3">
+                        <input type="radio" id="slide9" class="inpt" name="carou3" checked="yes">
+                        <label id="slideNine" for="slide9"></label>
+                        <input type="radio" id="slide10" class="inpt" name="carou3">
+                        <label id="slideTen" for="slide10"></label>
+                        <input type="radio" id="slide11" class="inpt" name="carou3">
+                        <label id="slideEleven" for="slide11"></label>
+                        <input type="radio" id="slide12" class="inpt" name="carou3">
+                        <label id="slideTwelve" for="slide12"></label>
+                    </div>
+
+
+                    <div id="carousselTrois" class="caroussel positionCaroussel1">
+                        <div class="images img11"></div>
+                        <div class="images img12"></div>
+                        <div class="images img9"></div>
+                        <div class="images img10"></div>
+                        <div class="images img11"></div>
+                        <div class="images img12"></div>
+                    </div>
+                </section>
             </div>
         </section>
-     
+
 
 
     </main>
@@ -112,7 +164,8 @@
 
         <p>Copyright © 2023 Outdoor Adventure</p>
     </footer>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="../js/index.js"></script>
+    
 </body>
 
 </html>

@@ -12,7 +12,7 @@ Le corp principal de la page
 
 /*
 **********************************************
-Page titre projects
+Page titre du projects
 *********************************************
 */
 
@@ -23,9 +23,21 @@ padding: 15vw 0;
 .destinProjects{
     background-color: var(--bgwhite);
     justify-content: flex-start;
-    padding-bottom: 200px;
+    padding:20px 20px 50px 0;
 }
+ .titreSousProjects{
+     justify-content: flex-start;  
+     flex-direction: row;
+ }
 
+ .titreSousProjects p{
+    font-weight:bold;
+ }
+
+ .titreSousProjects hr{
+    margin: 10px;
+    width: 100px;
+ }
 
 /*
 **********************************************
@@ -40,6 +52,10 @@ Page projects
 
 .destinProjects div article{
     margin: 20px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 @media (max-width: 920px){
@@ -54,6 +70,6 @@ Page projects
 
 @media (max-width: 767px){
     .destinProjects{
-        padding-bottom: 100px;
+        padding-bottom: 20px;
     }
 }

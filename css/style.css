@@ -70,11 +70,11 @@ header{
     color: var(--txtWhite);
 }
 
-#activeburger #burger::before{
+.activeburger #burger::before{
     content: "\2715";
 }
 
-#activeburger ul{
+.activeburger ul{
      left: 0;
      display: block;
 }
