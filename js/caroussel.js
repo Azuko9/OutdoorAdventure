@@ -21,7 +21,7 @@ radio1.addEventListener("click", function () {
 radio2.addEventListener("click", function () {
     const leCaroussel = document.querySelector("#carousselUn");
         leCaroussel.classList.remove("positionCaroussel2", "positionCaroussel3", "positionCaroussel4");
-        leCaroussel.classList.add("positionCarsoussel2");
+        leCaroussel.classList.add("positionCaroussel2");
 
 
 });
