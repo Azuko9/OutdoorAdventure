@@ -10,7 +10,7 @@ appuis.addEventListener("click", function ()  {
     }
 });
 
-
+s
 // const radio1 = document.querySelector("#slideOne");
 // const radio2 = document.querySelector("#slideTwo");
 // const radio3 = document.querySelector("#slideThree");
